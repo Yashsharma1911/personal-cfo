@@ -1,0 +1,27 @@
+# Go
+cfo
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data (personal financial data should never be committed)
+data/raw/*.csv
+data/raw/*.pdf
+!data/raw/sample_*.csv
+
+# Database
+*.db
+.cfo/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env
+.env.local
